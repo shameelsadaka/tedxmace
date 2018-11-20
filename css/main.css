@@ -3413,10 +3413,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
+    width: 200px;
+    height: 40px;
     background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    background-size: 100% 100%;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
