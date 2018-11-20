@@ -1,0 +1,68 @@
+.home-parallax{
+	position: fixed;
+	top: 0;
+	z-index: -99;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.speakers-list .speaker-item{
+	margin-bottom: 30px;
+}
+.speakers-list .speaker-box{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	font-family: "montserrat-regular", sans-serif;
+}
+.speaker-name-box{
+	width: 85%;
+	display: block;
+	min-height: 50px;
+	float: right;
+	background: #ff2b06;
+	padding:6px 10px;
+	position: relative;
+	margin-top: -30px;
+	font-family: "montserrat-regular", sans-serif;
+	left: 10px;
+	-webkit-transition:all 200ms ease-in-out;
+	-moz-transition:all 200ms ease-in-out;
+	-o-transition:all 200ms ease-in-out;
+	transition:all 200ms ease-in-out;
+}
+	.speaker-name{
+		color: #FFFFFF;
+		font-size: 15px;
+		display: block;
+		line-height: 25px;
+	}
+	.speaker-title{
+		color: #000000;
+		font-size: 12px;
+		display: block;
+		line-height: 10px;
+	}
+	.speaker-text{
+		font-size: 15px;
+		text-align: center;
+		background: #FFFFFF;
+		display: block;
+		color: #434343;
+		line-height: 20px;
+		width: 100%;
+		float: left;
+		margin-top:-40px;
+		font-family: "montserrat-light", sans-serif;
+		/*height: 0;*/
+		overflow:hidden;
+
+		-webkit-transition:all 200ms ease-in-out;
+		-moz-transition:all 200ms ease-in-out;
+		-o-transition:all 200ms ease-in-out;
+		transition:all 200ms ease-in-out;
+	}
+.speaker-item:hover .speaker-text{
+	height: 90px;
+}
