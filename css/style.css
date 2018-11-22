@@ -17,14 +17,14 @@
 	font-family: "montserrat-regular", sans-serif;
 }
 .speaker-name-box{
-	width: 85%;
+	width: 80%;
 	display: block;
-	min-height: 50px;
-	float: right;
+	min-height: 30px;
 	background: #ff2b06;
 	padding:6px 10px;
+	float: right;
 	position: relative;
-	margin-top: -30px;
+	margin-top: -40px;
 	font-family: "montserrat-regular", sans-serif;
 	left: 10px;
 	-webkit-transition:all 200ms ease-in-out;
@@ -34,7 +34,7 @@
 }
 	.speaker-name{
 		color: #FFFFFF;
-		font-size: 15px;
+		font-size: 14px;
 		display: block;
 		line-height: 25px;
 	}
@@ -42,6 +42,7 @@
 		color: #000000;
 		font-size: 12px;
 		display: block;
+		padding-bottom: 8px;
 		line-height: 10px;
 	}
 	.speaker-text{
@@ -65,4 +66,15 @@
 	}
 .speaker-item:hover .speaker-text{
 	height: 90px;
+}
+.speaker-pic{
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	border-radius: 50%;
+	display: block;
+	overflow: hidden;
+}
+.speaker-pic img{
+	width: 100%;
 }
