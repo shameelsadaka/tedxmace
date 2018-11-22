@@ -1665,7 +1665,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .header-menu-text {
@@ -1687,7 +1687,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     top: 50%;
     right: auto;
     bottom: auto;
-    background-color: white;
+    background-color:#ff2b06;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
