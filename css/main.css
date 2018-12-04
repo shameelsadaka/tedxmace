@@ -2441,6 +2441,17 @@ html.no-csstransitions .home-content__main {
     margin-top: -.6rem;
 }
 
+/* ===================================================================
+ * # youthspeaker
+ *
+ * ------------------------------------------------------------------- */
+.s-youthspeaker {
+    padding-bottom: 13.2rem;
+    background-color: #FFFFFF;
+    color: #333333;
+    position: relative;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
